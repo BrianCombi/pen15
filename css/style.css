@@ -1,0 +1,84 @@
+.pen15 {
+	width: 260px;
+	height: 1200px;
+	position: absolute;
+	left: 207px;
+	top: 69px;
+	border-radius: 230px 230px 0px 0px;
+	** -     ;
+	background-color: bisque;
+}
+
+.pen15s {
+	width: 260px;
+	height: 203px;
+	position: absolute;
+	left: 207px;
+	top: 69px;
+	border-radius: 230px 230px 0px 0px;
+	** -     ;
+	background-color: pink;
+}
+
+
+/*
+.pen15 {
+	width: 260px;
+	height: 1200px;
+	position: absolute;
+	left: 207px;
+	top: 69px;
+	border-radius: 230px 230px 0px 0px;
+	** -     ;
+	background-color: green;
+}
+
+.pen15s {
+	width: 260px;
+	height: 1200px;
+	position: absolute;
+	left: 207px;
+	top: 80px;
+	border-radius: 230px 230px 0px 0px;
+	** -     ;
+	background-color: bisque;
+}
+*/
+
+
+.pen15b {
+	width: 60px;
+	height: 60px;
+	left: 100px;
+	border-radius: 50%;
+	position: absolute;
+	color: black;
+	*/														background-color:black;
+}
+
+.pen15b::before {
+	content: "";
+	position: absolute;
+		left: 30px;
+		top: 1024px;
+	width: 256px;
+	height: 256px;
+	*/														border-bottom: solid 180px currentColor;
+	background-color: pink;
+	border-radius: 100%;
+	*/														transform: rotate(-40deg);
+	transform-origin: right 210px;
+}
+.pen15b::after {
+	content: "";
+	position: absolute;
+		left: 203px;
+		top: 1024px;
+	width: 256px;
+	height: 256px;
+	*/														border-bottom: solid 180px currentColor;
+	background-color: pink;
+	border-radius: 100%;
+	*/														transform: rotate(-40deg);
+	transform-origin: right 210px;
+}
