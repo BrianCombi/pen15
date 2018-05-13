@@ -1,84 +1,92 @@
-.pen15 {
-	width: 260px;
-	height: 1200px;
+.pen15{
+	width: 256px;
+	height: 1100px;
+	border-radius: 256px 256px 0 0;
 	position: absolute;
-	left: 207px;
-	top: 69px;
-	border-radius: 230px 230px 0px 0px;
-	** -     ;
-	background-color: bisque;
+	left: 100px;
+	top: 2px;
+	color: bisque;
+	background-color:currentColor;
 }
-
-.pen15s {
-	width: 260px;
-	height: 203px;
-	position: absolute;
-	left: 207px;
-	top: 69px;
-	border-radius: 230px 230px 0px 0px;
-	** -     ;
-	background-color: pink;
-}
-
-
-/*
-.pen15 {
-	width: 260px;
-	height: 1200px;
-	position: absolute;
-	left: 207px;
-	top: 69px;
-	border-radius: 230px 230px 0px 0px;
-	** -     ;
-	background-color: green;
-}
-
-.pen15s {
-	width: 260px;
-	height: 1200px;
-	position: absolute;
-	left: 207px;
-	top: 80px;
-	border-radius: 230px 230px 0px 0px;
-	** -     ;
-	background-color: bisque;
-}
-*/
-
 
 .pen15b {
-	width: 60px;
-	height: 60px;
-	left: 100px;
-	border-radius: 50%;
+	width: 256px;
+	height: 256px;
+	border-radius: 100%;
 	position: absolute;
-	color: black;
-	*/														background-color:black;
+	top: -254px;
+	color: pink;
+	**background-color:currentColor;
+	opacity: 1;
+	box-shadow: 0px 1280px 0 0 currentColor,
+		183px 1280px 0 0 currentColor,
+		92px 256px 0 0 currentColor;
 }
 
-.pen15b::before {
+.pen15e {
 	content: "";
 	position: absolute;
-		left: 30px;
-		top: 1024px;
-	width: 256px;
-	height: 256px;
-	*/														border-bottom: solid 180px currentColor;
-	background-color: pink;
-	border-radius: 100%;
-	*/														transform: rotate(-40deg);
-	transform-origin: right 210px;
+	left: 180px;
+	top: 24px;
+	width: 98px;
+	height: 98px;
+	border-radius: 19% 100% 11% 100%;
+	color:  salmon;
+	background-color:currentColor;
+	transform: rotate(45deg);
 }
-.pen15b::after {
+
+.pen15gf {
 	content: "";
 	position: absolute;
-		left: 203px;
-		top: 1024px;
+	left: 100px;
+	top: 128px;
 	width: 256px;
-	height: 256px;
-	*/														border-bottom: solid 180px currentColor;
-	background-color: pink;
-	border-radius: 100%;
-	*/														transform: rotate(-40deg);
-	transform-origin: right 210px;
+	height: 80px;
+	**border-radius: 0 0 0 0;
+	color:  pink;
+	opacity: 1;
+	background-color:currentColor;
+}
+
+.pen15gs {
+	content: "";
+	position: absolute;
+	left: 100px;
+	top: 160px;
+	width: 256px;
+	height: 100px;
+	border-radius: 0% 0% 0% 0%;
+	color:  bisque;
+	opacity: 1;
+	background-color:currentColor;
+	**transform: rotate(180deg);
+}
+
+.pen15gs::before {
+	content: "";
+	position:absolute;
+	left: 128px;
+	top: 0px;
+	width: 128px;
+	height: 60px;
+	border-radius: 0% 0% 100% 0%;
+	color: pink;
+	**color: green;
+	**opacity: 0.5;
+	background-color: currentColor;
+}
+
+.pen15gs::after {
+	content: "";
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 128px;
+	height: 60px;
+	border-radius: 0% 0% 0% 1000%;
+	color: pink;
+	**color: green;
+	**opacity: 0.5;
+	background-color: currentColor;
 }
